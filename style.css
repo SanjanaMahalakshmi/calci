@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+    background-image: url(https://img.freepik.com/premium-photo/black-office-desk-laptop-calculator-notepad-top-view-free-space-your-text_187166-33264.jpg?w=1380)
+}
+table{
+    background-color: rgba(0, 0, 0, 0.132);
+    margin-left: 100px;
+}
+.calci{
+   width: 500px; 
+   margin-left: 200px;
+   margin-top: 200px;
+}
+#outputbox{
+    border: 2px salmon;
+    width: 150px;
+    height: 50px;
+    background-color: antiquewhite;
+}
+

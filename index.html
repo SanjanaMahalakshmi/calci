@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <table class="calci">
+        <tr>
+            <th style="color: bisque;"><h1>Wanna Calculate!!</h1></th>
+            
+        </tr>
+        <tr>
+            <td style="color: darkgray;text-decoration: double;">Choose number 1<br><input type="number" id="num1"  placeholder="num1"></td>
+        </tr>
+        <tr>
+            <td style="color: darkgray;text-decoration: double;">Choose number 2<br><input type="number" id="num2" placeholder="num2"></td>
+        </tr>
+        <tr>
+            <td><button  onclick="addition()">Addition</button><br></td>
+            <td><button style="margin-left: -200px;" onclick="subtraction()">Subtraction</button><br></td>
+        </tr>
+        <tr>
+            <td><button  onclick="multiplication()">Multiplication</button><br></td>
+            <td><button style="margin-left: -200px;" onclick="division()">Division</button><br></td>
+        </tr>
+        <tr>
+           
+        </tr>
+        <tr>
+            <td><h1 style="color:bisque;">Result</h1></td>
+        </tr>
+        <tr>
+            <td>
+                <div id="outputbox"></div>
+            </td>
+        </tr>
+        
+
+    </table>
+    
+    <script src="./script.js"></script>
+    
+</body>
+</html>
